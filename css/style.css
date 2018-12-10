@@ -2,18 +2,90 @@ html {
     height: 100%;
 }
 
-body {
-    height: 100%;
-    
-}
 a {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .main {
+    display:flex;
+    justify-content: center;
     height: 100%;
+    width:100%;
+}
+#main{
+     height: 500px;
+     width:500px;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    margin:35px;
+    font-size: 15px;
+}
+.header{
+    display:flex;
+    justify-content:center;
+    font-size: 40px;
+    margin: 50px;
+}
+.gallery{
+     display:flex;
+    justify-content:center;
+    max-height: 1000px;
+    max-width; 1000px;
+}
+.one {
+   max-width: 100%; 
+   height: 100%;
+   margin:10px;
+ }
+ #container{
+     display: flex;
+ }
+ .rightPane{
+     Width: 50%
+}
+.leftPane{
+    width: 50% ;
+    display: flex;
+    justify-content: center;
+}
+ #pic{
+   max-width: 100%; 
+   max-height: 100%; 
+   border-radius:50%;
+ }
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 3.5em;
+    vertical-align: middle;
+}
+footer{
+    margin:30px;
+    vertical-align: bottom;
+}
+.container{
+    background-image: url("https://www.europeanflowershop.com/wp-content/uploads/2016/06/red_buds_flowers-wide-1280x540.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.leftPane{
+    background-image: url("https://i.pinimg.com/originals/de/8f/26/de8f26997cd2ec989dd80d45c18e4f19.gif");
+    background-repeat: no-repeat;
+    background-size: 1300px 575px;
 }
